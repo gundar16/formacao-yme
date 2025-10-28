@@ -1,8 +1,8 @@
-### Formação YME
+# Formação YME
 
 ## Ex1
 
-# Calculadora de Energia Diária
+### Calculadora de Energia Diária
 
 Objetivo: criar um programa que ajuda o utilizador a estimar a sua energia durante o dia com base nas suas horas de sono e na quantidade de atividades que faz.
 
@@ -16,7 +16,7 @@ Segue os seguintes passos:
 
 ## Ex2
 
-# O Consultor de Sequências
+### O Consultor de Sequências
 
 Objetivo: criar um programa dividido em dois ficheiros que permite a realização de operações com sequências numéricas, incluindo o cálculo de números de Fibonacci.
 
@@ -30,7 +30,7 @@ Segue os seguintes passos:
 
 ## Ex3
 
-# Gestor de Viagem de Carro
+### Gestor de Viagem de Carro
 
 Contexto: O utilizador vai fazer uma viagem longa de carro e quer gerir a energia e o progresso até ao destino. Durante o percurso, surgem decisões e eventos que afetam o consumo e o tempo de viagem. A ideia é nunca ficar sem energia e chegar ao destino.
 
