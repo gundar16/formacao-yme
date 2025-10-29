@@ -19,6 +19,12 @@ def criar_viagem():
         "passos_avaria": 0
     }
 
+# Função para abastecer o veículo e atualizar os dados da viagem
+def abastecer(viagem):
+    viagem["autonomia"] = viagem["capacidade"]
+    viagem["dias_passados"] += 1
+    return viagem
+
 # Função recursiva para reparar avarias
 def reparar(viagem):
     if viagem["passos_avaria"] == 0:
@@ -72,12 +78,6 @@ def conduzir(viagem):
     else: print("\nCondição: nenhuma!")
     print(f"\nPercorreste {km_percorridos} km e consumiste {consumo} km\n")
 
-    return viagem
-
-# Função para abastecer o veículo e atualizar os dados da viagem
-def abastecer(viagem):
-    viagem["autonomia"] = viagem["capacidade"]
-    viagem["dias_passados"] += 1
     return viagem
 
 # Função principal para gerir a viagem
