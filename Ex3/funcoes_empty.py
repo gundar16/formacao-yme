@@ -12,19 +12,19 @@ def criar_viagem():
     "dias_passados" e "passos_avaria".
     """
 
+def abastecer(viagem):
+    """
+    Função para abastecer uma viagem. Incrementa a autonomia para o valor da capacidade
+    e incrementa o número de dias passados.
+
+    Retorna a viagem com as informações atualizadas.
+    """
+
 def reparar(viagem):
     """
     Função recursiva para reparar uma avaria. Enquanto a avaria não estiver reparada (passos_avaria != 0),
     pega o input do user e decrementa o número de etapas restantes. Se a avaria estiver reparada,
     imprime uma mensagem de sucesso e retorna a viagem.
-
-    Retorna a viagem com as informações atualizadas.
-    """
-
-def abastecer(viagem):
-    """
-    Função para abastecer uma viagem. Incrementa a autonomia para o valor da capacidade
-    e incrementa o número de dias passados.
 
     Retorna a viagem com as informações atualizadas.
     """
