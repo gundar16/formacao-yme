@@ -1,6 +1,5 @@
 # Recolher dados iniciais
 nome = input("Qual é o teu nome? ")
-idade = int(input("Quantos anos tens? "))
 horas_sono = float(input("Quantas horas dormiste esta noite? "))
 atividades = int(input("Quantas atividades tens planeadas para hoje? "))
 
@@ -24,7 +23,7 @@ while True:
     cafe = input("Queres beber um café? (s/n): ").lower()
     if cafe == "s":
         energia += 5
-        print("Energia aumentada! Energia atual:", energia)
+        print("Energia aumentada!")
     else:
         break
 
