@@ -7,7 +7,7 @@
 Objetivo: criar um programa que ajuda o utilizador a estimar a sua energia durante o dia com base nas suas horas de sono e na quantidade de atividades que faz.
 
 Segue os seguintes passos:
-- Cria e recolhe os dados para as variáveis iniciais através do comando input (nome, idade, horas de sono e número de atividades planeadas);
+- Cria e recolhe os dados para as variáveis iniciais através do comando input (nome, horas de sono e número de atividades planeadas);
 - Cria a variável “energia” fornecendo-lhe um valor inicial (por ex 50);
 - Usa condições para alterar o valor da energia de acordo com as horas de sono;
 - Usa um loop para ajustar a energia conforme o número de atividades realizadas;
